@@ -24,7 +24,7 @@ Several rasters must be downloaded from other sources:
 1) The digital elevation model is the USGS EDNA 10-m resolution digital elevation model of Hawaiʻi (downloadable from https://earthexplorer.usgs.gov/; last accessed 15 May 2025). See http://edna.usgs.gov for more information.
 2) The rainfall map and standard deviation is from the Hawaiʻi Rainfall Atlas (Giambelluca et al., 2013; downloadable from https://www.hawaii.edu/climate-data-portal/rainfall-atlas/; last accessed 15 May 2025). These are the "Rainfall Grids" and "Uncertainty" maps in ASCII Grid Format, millimeters.
 
-*The MATLAB code has a line to clip all rasters, including these that must be downloaded, to the same extent as that in the paper. The exact extent of self-downloaded rasters does not have to match that of the rasters provided in order to work. However, the extent of the self-downloaded rasters, particularly the EDNA elevation, must not be smaller than the extent of the provided ones. Also, if self-downloaded rasters are too large, this may affect run time.
+*The MATLAB scripts have a line to clip all rasters, including these that must be downloaded, to the same extent as that in the paper. The exact extent of self-downloaded rasters does not have to match that of the rasters provided in order to work. However, the extent of the self-downloaded rasters, particularly the EDNA elevation, must not be smaller than the extent of the provided ones. Also, if self-downloaded rasters are too large, this may affect run time.
 
 Citations:
 
