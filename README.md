@@ -10,15 +10,15 @@ Several MATLAB scripts are provided:
 3) AcrossDivideJH.m is modified from AcrossDivideJH.m in DivideTools to include the 'ultralax' option for the 'divide_buffer' optional input.
 
 Several rasters are provided:
-1) The distance from Bouguer gravity high is from Strange et al. (1965) as strange_grav_cald_dist.asc.
+1) The distance from Bouguer gravity high is from Strange et al. (1965) as Strange_grav_cald_dist.asc.
 2) The reconstructed surface is Wmaui_thinplatespline.asc, zipped as Wmaui_thinplatespline.zip. Points used to interpolate this surface is Wmaui_thinplatespline_points.csv.
 
 Several shapefiles are provided:
-1) The West Maui Volcano caldera outline is adapted from Sherrod et al. (2021a,b) as wailuku_caldera_full.shp.
+1) The West Maui Volcano caldera outline is adapted from Sherrod et al. (2021a,b) as Wailuku_caldera_full.shp.
 2) West Maui valleys analyzed are WMV_Valleys.shp, valleys named in the paper are WMV_Valleys_main.shp.
 
 Several tables are provided:
-1) maui_valley_aspect.csv holds the valley ID number, valley widths [m], and corresponding valley lengths [m]. There is one row for each width measured, where the ID and valley length is constant for each valley.
+1) Maui_valley_aspect.csv holds the valley ID number, valley widths [m], and corresponding valley lengths [m]. There is one row for each width measured, where the ID and valley length is constant for each valley.
 2) Wmaui_thinplatespline_points.csv holds the Easting, Northing, elevation, and point type for points used in the reconstructed surface thin-plate spline.
 
 Several rasters must be downloaded from other sources:
