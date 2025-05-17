@@ -22,8 +22,8 @@ Several tables are provided:
 
 Several rasters must be downloaded from other sources:
 1) The digital elevation model is the USGS EDNA 10-m resolution digital elevation model of Hawaiʻi (downloadable from https://earthexplorer.usgs.gov/; last accessed 15 May 2025). See http://edna.usgs.gov for more information.
-2) The rainfall map and standard deviation is from the Hawaiʻi Rainfall Atlas (Giambelluca et al., 2013; downloadable from https://www.hawaii.edu/climate-data-portal/rainfall-atlas/; last accessed 15 May 2025). These are the "Rainfall Grids" and "Uncertainty" maps in ASCII Grid Format in millimeters.
-* The MATLAB code has a line to clip all rasters, including these that must be downloaded, to the same extent as that in the paper. The exact extent of self-downloaded rasters does not have to match that of the rasters provided in order to work. However, the extent of the self-downloaded rasters, particularly the EDNA elevation, must not be smaller than the extent of the provided ones. Also, if self-downloaded rasters are too large, this may affect run time.
+2) The rainfall map and standard deviation is from the Hawaiʻi Rainfall Atlas (Giambelluca et al., 2013; downloadable from https://www.hawaii.edu/climate-data-portal/rainfall-atlas/; last accessed 15 May 2025). These are the "Rainfall Grids" and "Uncertainty" maps in ASCII Grid Format, millimeters.
+*The MATLAB code has a line to clip all rasters, including these that must be downloaded, to the same extent as that in the paper. The exact extent of self-downloaded rasters does not have to match that of the rasters provided in order to work. However, the extent of the self-downloaded rasters, particularly the EDNA elevation, must not be smaller than the extent of the provided ones. Also, if self-downloaded rasters are too large, this may affect run time.
 
 Citations:
 
@@ -42,4 +42,3 @@ Sherrod, D. R., Robinson, J., Sinton, J., Watkins, S., & Brunt, K. (2021a). Geol
 Sherrod, D. R., Sinton, J. M., Watkins, S. E., & Brunt, K. M. (2021b). Geologic Map of the State of Hawaiʻi (No. 3143). U.S. Geological Survey. https://doi.org/10.3133/sim3143
 
 Strange, W. E., Woollard, G. P., & Rose, J. C. (1965). An Analysis of the Gravity Field Over the Hawaiian Islands in Terms of Crustal Structure. Pacific Science, 19(3), 381–389.
-
