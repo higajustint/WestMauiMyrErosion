@@ -5,8 +5,9 @@ Higa, Justin T., Rowland, Scott K. (in review) Volcanic and climatic controls on
 Higa_and_Rowland_ValleyTopo_Zenodo.m and Higa_and_Rowland_DivideMigration_Zenodo.m require the TopoToolbox 2 (Scherler & Schwanghart, 2020; Schwanghart & Scherler, 2014) and DivideTools (Forte & Whipple, 2018) packages. For Topotoolbox 2, the refmat2XY.m function must be taken out of the private folder in the @GRIDobj folder and placed in a findable location (e.g., directly in the @GRIDobj folder). RGB triple of color name, version 2 (https://www.mathworks.com/matlabcentral/fileexchange/24497-rgb-triple-of-color-name-version-2; last accessed 15 May 2025) is also required for plotting.
 
 Several MATLAB scripts are provided:
-1) meanbin.m was used for simple plotting of binned data.
-2) AcrossDivideJH.m is modified from AcrossDivideJH.m in DivideTools to include the 'ultralax' option for the 'divide_buffer' optional input.
+1) Higa_and_Rowland_ValleyTopo_Zenodo.m and Higa_and_Rowland_DivideMigration_Zenodo.m are the main scripts.
+2) meanbin.m was used for simple plotting of binned data.
+3) AcrossDivideJH.m is modified from AcrossDivideJH.m in DivideTools to include the 'ultralax' option for the 'divide_buffer' optional input.
 
 Several rasters are provided:
 1) The distance from Bouguer gravity high is from Strange et al. (1965) as strange_grav_cald_dist.asc.
