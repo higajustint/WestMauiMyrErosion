@@ -6,7 +6,8 @@ authors:
   orcid: "https://orcid.org/0000-0001-8688-9645"
 - family-names: "Rowland"
   given-names: "Scott K."
-title: "WestMauiErosion"
-version: 1.0.0
-date-released: 2025-05-16
-url: "https://github.com/higajustint/WestMauiErosion"
+  orcid: "https://orcid.org/0000-0003-3943-1492"
+title: "WestMauiMyrErosion"
+version: v0.0.0-alpha
+date-released: 2025-06-02
+url: "https://doi.org/10.5281/zenodo.15571948"
