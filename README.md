@@ -4,7 +4,7 @@ Higa, Justin T., Rowland, Scott K. (in review) Volcanic and climatic controls on
 
 This package is registered on Zenodo as:
 
-Higa, J. T., & Rowland, S. K. (2025). WestMauiMyrErosion (v0.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.15571948
+Higa, Justin T., Rowland, Scott K. (2025). WestMauiMyrErosion (v0.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.15571948
 
 Higa_and_Rowland_ValleyTopo.m and Higa_and_Rowland_DivideMigration.m require the TopoToolbox 2 (Scherler & Schwanghart, 2020; Schwanghart & Scherler, 2014) and DivideTools (Forte & Whipple, 2018) packages. For Topotoolbox 2, the refmat2XY.m function must be taken out of the private folder in the @GRIDobj folder and placed in a findable location (e.g., directly in the @GRIDobj folder). RGB triple of color name, version 2 (https://www.mathworks.com/matlabcentral/fileexchange/24497-rgb-triple-of-color-name-version-2; last accessed 15 May 2025) is also required for plotting.
 
